@@ -2,16 +2,16 @@
 const { chromium } = require('playwright');
 
 const urls = [
-  'https://example.com/seed/55',
-  'https://example.com/seed/56',
-  'https://example.com/seed/57',
-  'https://example.com/seed/58',
-  'https://example.com/seed/59',
-  'https://example.com/seed/60',
-  'https://example.com/seed/61',
-  'https://example.com/seed/62',
-  'https://example.com/seed/63',
-  'https://example.com/seed/64',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=55',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=56',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=57',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=58',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=59',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=60',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=61',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=62',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=63',
+  'https://sanand0.github.io/tdsdata/js_table/?seed=64',
 ];
 
 function extractNumbersFromTable(table) {
