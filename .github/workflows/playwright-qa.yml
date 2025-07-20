@@ -21,8 +21,11 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        npm init -y
         npm install playwright
+
+    - name: Install Browsers
+      run: |
+        npx playwright install --with-deps
 
     - name: Run Playwright Script
       run: node sum-tables.js
