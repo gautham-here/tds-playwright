@@ -7,7 +7,7 @@ on:
 
 jobs:
   run-playwright:
-    name: QA Check by 23f2001559@ds.study.iitm.ac.in
+    name: 23f2001559@ds.study.iitm.ac.in
     runs-on: ubuntu-latest
 
     steps:
@@ -28,4 +28,7 @@ jobs:
         npx playwright install --with-deps
 
     - name: Run Playwright Script
+      run: node sum-tables.js
+
+    - name: 23f2001559@ds.study.iitm.ac.in
       run: node sum-tables.js
